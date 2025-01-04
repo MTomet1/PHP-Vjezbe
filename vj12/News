@@ -1,9 +1,9 @@
 <?php 
-	print '
+	print 
 	<h1>NEWS</h1>
 	<div class="news">';
 	if (!isset($action)) {
-		print '
+		print 
 		<a href="index.php?menu=' . $menu . '&action=1"><img src="news/_98509359_uscarproduction_getty.jpg" alt="US growth faster than expected" title="US growth faster than expected"></a>
 		<h2><a href="index.php?menu=' . $menu . '&action=1">US growth faster than expected</a></h2>
 		<p>The growth extended the robust activity reported in the previous quarter, when US GDP grew at an annual pace of 3.1%. <a href="index.php?menu=' . $menu . '&action=1">More ...</a></p>
@@ -106,7 +106,7 @@
 			<a href="index.php?menu='.$menu.'">Back</a>';
 		}
 	}
-	print '
+	print 
 	</div>';
 	
 ?>
